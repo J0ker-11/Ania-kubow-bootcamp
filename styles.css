@@ -10,5 +10,21 @@
 .linear-gradient {
     height: 300px;
     width: 700px;
-    background-image: repeating-linear-gradient(green 10%, blue 20%);
+    /* background-image: radial-gradient(green 20%, red 10%); */
+    background-image: conic-gradient(at 70% 50%,green , blue);
+}
+
+/* text-shadows */
+
+h1 {
+    text-shadow: 5px 7px 5px green, -5px -7px 5px green;
+}
+
+/* box-shadow */
+
+.box-shadow {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.24), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
