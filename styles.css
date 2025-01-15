@@ -4,3 +4,11 @@
     width: 400px;
     background: rgba(31, 109, 157, 1);
 }
+
+/* Linear Gradient */
+
+.linear-gradient {
+    height: 300px;
+    width: 700px;
+    background-image: repeating-linear-gradient(green 10%, blue 20%);
+}
